@@ -1,1 +1,20 @@
-
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Nova Nexus Chat</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.socket.io/4.0.0/socket.io.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h2>Nova Nexus Chat</h2>
+    <div id="chat"></div>
+    <input type="file" id="fileInput">
+    <input id="msg" placeholder="Mesaj yaz...">
+    <button onclick="sendMsg()">Gönder</button>
+    <button onclick="sendFile()">Dosya Gönder</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
